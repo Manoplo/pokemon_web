@@ -553,3 +553,35 @@ h3 {
 .pokemon-gens .link:hover img {
   transform: rotate(0.5turn);
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+}
+
+.box {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.box ul {
+  list-style: none;
+}
+
+.box li {
+  margin: 0.5rem 0;
+}
+
+.box a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
