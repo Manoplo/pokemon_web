@@ -137,12 +137,15 @@ main {
 
 .bannerside {
   margin-top: 4rem;
-  background: rgb(204, 4, 4);
   width: 15%;
-  border: 1px solid rgb(204, 4, 4);
-  border-radius: 15px;
   padding: 1em;
-  height: 80vh;
+  height: fit-content;
+}
+
+.bannerside img {
+  margin-top: 1.5rem;
+  cursor: pointer;
+  border: 1px solid black;
 }
 
 footer {
@@ -519,4 +522,34 @@ h3 {
 
 #btn:hover {
   background: #ff3f3f;
+}
+
+.search {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search:focus {
+  outline-color: rgb(190, 0, 0);
+}
+
+.search::placeholder {
+  color: rgb(138, 138, 138);
+}
+
+.search-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.pokemon-gens img {
+  transition: 0.2s ease-in-out;
+}
+
+.pokemon-gens .link:hover img {
+  transform: rotate(0.5turn);
 }
