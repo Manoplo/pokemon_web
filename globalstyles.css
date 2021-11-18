@@ -585,3 +585,9 @@ h3 {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
 }
+
+.videoscontainer {
+  display: flex;
+  gap: 25px;
+  margin-top: 2rem;
+}

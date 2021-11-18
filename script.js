@@ -2,9 +2,8 @@ const pokecontainer = document.getElementById("pokecontainer");
 let color = null;
 
 const getOne = () => {
-  const rand = Math.floor(Math.random() * 800);
+  const rand = Math.floor(Math.random() * 890);
   pokecontainer.innerHTML = "";
-
   fetch(`https://pokeapi.co/api/v2/pokemon/${rand}`)
     .then((response) => response.json())
     .then((data) => {
@@ -125,3 +124,4 @@ const getOne = () => {
 window.onload = getOne();
 
 document.getElementById("btn").addEventListener("click", getOne);
+
